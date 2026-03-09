@@ -143,7 +143,7 @@ Example SQL Query
 SUM(loan_amount) AS total_loan
 FROM loan_data
 GROUP BY branch_name
-ORDER BY total_loan DESC;```
+ORDER BY total_loan DESC; 
 
 ---
 ## 📷 Loan Dashboard Preview
