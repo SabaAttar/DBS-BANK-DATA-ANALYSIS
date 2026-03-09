@@ -7,17 +7,23 @@
 
 ---
 
-## 📌 Project Overview
-This project analyzes DBS Bank financial datasets to understand **loan distribution, client activity, and transaction behavior**.  
+# 📌 Project Overview
 
-The analysis converts raw banking data into **actionable insights** using SQL, Excel, and Power BI dashboards.
+This project analyzes **DBS Bank financial data** to understand **loan distribution, client activity, and transaction behavior**.
 
-The project consists of two main analyses:
+The analysis transforms raw banking data into **actionable business insights** using SQL queries, Excel dashboards, Power BI reports, and Tableau visualizations.
+
+The project includes two major analyses:
 
 1. **Loan Data Analysis**
 2. **Credit & Debit Transaction Analysis**
 
-This project demonstrates the **complete data analysis workflow** including data querying, cleaning, visualization, and insight generation.
+This project demonstrates a complete **end-to-end data analysis workflow** including:
+
+- Data extraction
+- Data cleaning
+- Data visualization
+- Business insight generation
 
 ---
 # 📥 Data Source
