@@ -57,7 +57,17 @@ The dataset used in this project contains banking financial data related to **lo
   - Disbursement Date
   - Repayment Status
   - Risk Category
+---
 
+**Dataset Size**
+
+Loan Dataset
+• ~2000 client records
+• 10+ features including branch, loan amount, risk category, disbursement date
+
+Transaction Dataset
+• Multiple bank transaction records
+• Includes credit, debit, branch, bank, risk category
 ---
 # ❓ Business Questions Answered
 
@@ -92,6 +102,13 @@ This analysis aims to answer key business questions related to banking operation
 - **Tableau** – Data visualization and analytics dashboards  
 
 ---
+# Data Cleaning & Preparation
+
+• Removed duplicate client records
+• Handled missing values
+• Converted date columns into proper format
+• Standardized loan amount units
+• Verified data accuracy using SQL queries
 
 # 📊 Project 1: Loan Data Analysis
 
@@ -120,9 +137,18 @@ The objective of this analysis is to:
 | On-Time Repayment Rate | 71% |
 
 ---
+Example SQL Query
+
+```SELECT branch_name,
+SUM(loan_amount) AS total_loan
+FROM loan_data
+GROUP BY branch_name
+ORDER BY total_loan DESC;```
+
+---
 ## 📷 Loan Dashboard Preview
 
-![Loan Dashboard]<img width="1256" height="543" alt="Loan Dashboard" src="https://github.com/user-attachments/assets/2f2aa7e7-8b6c-4f5d-a83e-0b00c255d188" />
+![Loan Dashboard](EXCEL_LOAN.png)
 
 
 ---
@@ -166,8 +192,7 @@ The main goals are:
 
 ## 📷 Credit & Debit Dashboard Preview
 
-![Transaction Dashboard]<img width="1000" height="563" alt="Transaction Dashboard" src="https://github.com/user-attachments/assets/76ecdee5-575c-475c-a48b-b23c1ac5480a" />
-
+![Transaction Dashboard](POWERBI_TRANSACTION.png)
 
 ---
 
