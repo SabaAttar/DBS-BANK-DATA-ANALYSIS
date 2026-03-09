@@ -139,7 +139,7 @@ The objective of this analysis is to:
 ---
 Example SQL Query
 
-```SELECT branch_name,
+SELECT branch_name,
 SUM(loan_amount) AS total_loan
 FROM loan_data
 GROUP BY branch_name
